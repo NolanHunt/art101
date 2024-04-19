@@ -7,3 +7,22 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+  .assignments-major-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+  }
+
+  .colorblue {
+    color: blue;
+  }
+
+  .colorred {
+    color: red;
+  }
+
+  .colorgreen {
+    color: green;
+  }

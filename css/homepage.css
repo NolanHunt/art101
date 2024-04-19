@@ -2,5 +2,15 @@
 
 .cat-photo {
   margin: 10px;
-  max-width: 500px;
+  max-width: 300px;
+}
+
+.myfacepicture {
+  width: 300px;
+  object-fit: cover;
+  display: inline-block;
+  margin-bottom: 30px;
+  transition: opacity 0.5s;
+  transition: box-shadow 0.2s;
+  transition: width 0.7s;
 }
