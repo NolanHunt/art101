@@ -34,3 +34,28 @@ h1 {
   border: solid 1px #474d3a;
   background-color: #c8aacd;
 }
+
+.special {
+  background-color: greenyellow;
+  border: dotted 45px black;
+  color: red;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* this css file will only style the homepage of our site */
+
+.cat-photo {
+  margin: 10px;
+  max-width: 300px;
+}
+
+.myfacepicture {
+  width: 300px;
+  object-fit: cover;
+  display: inline-block;
+  margin-bottom: 30px;
+  transition: opacity 0.5s;
+  transition: box-shadow 0.2s;
+  transition: width 0.7s;
+}
