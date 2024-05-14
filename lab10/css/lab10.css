@@ -1,0 +1,91 @@
+/* we can use a single css file to style all the files in our wwebsite */
+
+/* you can pick your own background colors, text colors, and fonts */
+
+/* we can select an html element tag, in this case "body" will apply to the whole document */
+body {
+  background-color: #85c7d8;
+}
+
+/* we can have rules apply to multiple elements at the same time with commas */
+h1,h2,h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* and we can have rules that overlap other rules, both take effect */
+h1 {
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-size: 200%;
+}
+
+/* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
+#content {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #d6a11a;
+  background-color: #7a8d91;
+}
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #474d3a;
+  background-color: #c8aacd;
+}
+
+.special {
+  background-color: greenyellow;
+  border: dotted 45px black;
+  color: red;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* this css file will only style the homepage of our site */
+
+.cat-photo {
+  margin: 10px;
+  max-width: 300px;
+}
+
+.myfacepicture {
+  width: 300px;
+  object-fit: cover;
+  display: inline-block;
+  margin-bottom: 30px;
+  transition: opacity 0.5s;
+  transition: box-shadow 0.2s;
+  transition: width 0.7s;
+}
+
+.text p {
+  display: inline-block;
+  max-width: 60%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 20px 10px 5px 0px;
+  background-color: darkgray;
+  color: white;
+  font-family: sans-serif;
+  font-size: 0.8em;
+}
+
+.text:nth-child(odd) {
+  text-align: left;
+}
+
+.text:nth-child(odd) p {
+  background-color: rgb(233, 233, 233);
+  color: black;
+}
+
+.text:nth-child(even) {
+  text-align: right;
+}
+
+.text:nth-child(even) p {
+  background-color: #45ba59;
+  color: white;
+}
